@@ -1,0 +1,54 @@
+[08-Feb-2018 12:09:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/search.php on line 10
+[08-Feb-2018 12:10:00 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/search.php on line 10
+[05-Mar-2018 02:08:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/404.php on line 10
+[24-Mar-2018 08:30:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/archive.php on line 10
+[25-Mar-2018 10:50:14 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/osbornecaterers/public_html/wp-content/themes/osborne/header.php on line 14
+[06-May-2018 17:44:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/404.php on line 10
+[13-Aug-2018 16:08:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php on line 15
+[11-Aug-2019 17:42:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php on line 15
+[09-Sep-2019 10:16:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php on line 15
+[24-Sep-2020 16:21:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[25-Sep-2020 02:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[26-Sep-2020 09:08:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[27-Sep-2020 07:38:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[02-Oct-2020 17:11:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[10-Oct-2020 14:44:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[15-Oct-2020 21:24:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[21-Oct-2020 02:21:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/page.php on line 15
+[16-Feb-2021 16:58:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/osbornecaterers/public_html/wp-content/themes/osborne/index.php on line 15

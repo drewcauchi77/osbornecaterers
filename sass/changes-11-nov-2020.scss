@@ -1,0 +1,706 @@
+// Main Components Styling
+
+a{
+    outline: none;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1030px;
+}
+
+// Header Styling
+
+#masthead{
+    .site-header-container{
+        .header{
+            #site-navigation{
+                .menu-osborne-menu-container{
+                    #primary-menu{
+                        .menu-item-has-children{
+                            .sub-menu{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Online Shop Page Styling
+.our-food{
+    #page{
+        #content{
+            #primary{
+                #main{
+                    article{
+                        .entry-content{
+                            .online-shop-breadcrumb{
+                                padding: 30px 0px;
+                                a{
+                                    text-decoration: none;                                    
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                            .product-categories-container{
+                                display: grid;
+                                grid-row-gap: 30px;
+                                padding-bottom: 50px;
+                                .single-category-box{
+                                    height: 220px;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    .background-container{
+                                        background-color: rgba(28, 41, 69, 0.8);
+                                        height: 100%;
+                                        width: 100%;
+                                        position: relative;
+                                        .category-details{
+                                            position: absolute;
+                                            bottom: 0;
+                                            left: 0;
+                                            right: 0;
+                                            margin: auto;
+                                            padding: 15px;
+                                            .parent-category-name{
+                                                color: white;
+                                                font-size: 14px;
+                                            }
+                                            .category-name{
+                                                color: white;
+                                                margin: 10px 0px;
+                                            }
+                                            .view-products{
+                                                width: 150px;
+                                                height: 35px;
+                                                border: 1px solid white;
+                                                cursor: pointer;
+                                                transition: 0.75s all;
+                                                a{
+                                                    height: 100%;
+                                                    width: 100%;
+                                                    position: relative;
+                                                    display: block;
+                                                    .view-text{
+                                                        color: #E0B49B;
+                                                        position: absolute;
+                                                        top: 0;
+                                                        bottom: 0;
+                                                        left: 0;
+                                                        right: 0;
+                                                        margin: auto;
+                                                        font-size: 13px;
+                                                        height: fit-content;
+                                                        width: fit-content;
+                                                    }
+                                                }
+                                                &:hover{
+                                                    background-color: white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Product Categories Pages Styling
+.tax-product_cat{
+    #primary{
+        #main{
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+            .category-breadcrumb{
+                padding: 30px 0px;
+                display: block;
+                color: rgba(28, 41, 69, 0.6);
+                a{
+                    text-decoration: none;
+                    color: rgba(28, 41, 69, 0.6);
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .product-category{
+                    display: inline-block;
+                    color: #1C2945;
+                }
+            }
+            .products{
+                display: grid;
+                grid-template-rows: 1fr;
+                &::before{
+                    display: none;
+                }
+                .product{
+                    width: 100%;
+                    a{
+                        .woocommerce-loop-product__title{
+                            text-transform: uppercase;
+                            color: black;
+                            height: 90px;
+                        }
+                        .price{
+                            font-size: 17px;
+                            color: #1C2945;
+                        }
+                    }
+                    form{
+                        display: grid;
+                        grid-template-columns: 65px auto;
+                        .quantity{
+                            align-self: center;
+                            .input-text{
+                                border: 1px solid #E0B49B;
+                            }
+                        }
+                        .button{
+                            align-self: center;
+                            margin-top: 0px;
+                            background-color: #E0B49B;
+                            border: 1px solid #E0B49B;
+                            color: white;
+                            padding-left: 0px;
+                            padding-right: 0px;
+                            height: 100%;
+                            &:hover{
+                                background-color: #1C2945;
+                                border: 1px solid #1C2945;
+                                color: white;
+                            }
+                        }
+                    }
+                    a.button{
+                        margin-top: 0px;
+                        background-color: #E0B49B;
+                        border: 1px solid #E0B49B;
+                        color: white;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        height: 36px;
+                        border-radius: 0;
+                        width: 100%;
+                        line-height: 17px;
+                        font-weight: 100;
+                        text-align: center;
+                        font-family: "GT America Medium", serif;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        font-size: 0.9rem;
+                        transition: background-color 0.75s;
+                        &:hover{
+                            background-color: #1C2945;
+                            border: 1px solid #1C2945;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Single Product Page Styling
+.single-product{
+    #page{
+        #content{
+            padding-top: 90px;
+            #main{
+                .product{
+                    .product-breadcrumb{
+                        text-align: left;
+                        display: block;
+                        padding: 30px 0px;
+                        padding: 30px 0px;
+                        display: block;
+                        color: rgba(28, 41, 69, 0.6);
+                        a{
+                            text-decoration: none;
+                            color: rgba(28, 41, 69, 0.6);
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                        .product-name{
+                            display: inline-block;
+                            color: #1C2945;
+                        }
+                    }
+                    .woocommerce-product-gallery{
+                        margin-bottom: 30px;
+                        img{
+                            max-height: 400px;
+                            object-fit: cover;
+                        }
+                    }
+                    .summary{
+                        display: grid;
+                        grid-template-areas: 'title'
+                            'description'
+                            'additionalinfo'
+                            'simpleprice'
+                            'addtocart';
+                        margin-bottom: 80px;
+                        .product-title{
+                            grid-area: title;
+                            font-size: 26px;
+                            color: black;
+                        }
+                        .woocommerce-product-details__short-description{
+                            grid-area: description;
+                            font-size: 14px;
+                        }
+                        .cart{
+                            grid-area: addtocart;
+                            margin-bottom: 0px;
+                            padding-top: 30px;
+                            button{
+                                width: calc(100% - 70px);
+                                align-self: center;
+                                margin-top: 0px;
+                                background-color: #E0B49B;
+                                border: 1px solid #E0B49B;
+                                color: white;
+                                padding-left: 0px;
+                                padding-right: 0px;
+                                height: 36px;
+                                &:hover{
+                                    background-color: #1C2945;
+                                    border: 1px solid #1C2945;
+                                    color: white;
+                                }
+                            }                        
+                        }
+                        .variations_form{
+                            .variations{
+                                table-layout: fixed;
+                                width: 100%;
+                                border-collapse: separate;
+                                border-spacing: 10px;
+                                tbody{
+                                    tr{
+                                        td{
+                                            text-align: left;
+                                            label{
+                                                font-size: 14px;
+                                                text-transform: uppercase;
+                                                font-family: "Domaine Text Light", serif;
+                                                color: #E0B49B;
+                                                font-weight: 100;
+                                            }
+                                        }
+                                        .label{
+                                            width: 65%;
+                                        }
+                                        .value{
+                                            select{
+                                                font-family: "GT America Light", serif;
+                                                color: #1c2945;
+                                                border: 1px solid #c1c0c1;
+                                                padding: 5px;
+                                            }
+                                        }
+                                    }
+                                    .reset_variations{
+                                        display: none !important;
+                                    }
+                                }
+                            }
+                        }
+                        .additional-product-information{
+                            grid-area: additionalinfo;
+                            padding-bottom: 40px;
+                            .specific-info{
+                                padding-top: 20px;
+                                .section-title{
+                                    margin: 0px;
+                                    padding-bottom: 15px;
+                                    text-transform: uppercase;
+                                    font-size: 14px;
+                                    color: #E0B49B;
+                                    text-align: left;
+                                }
+                                .section-details{
+                                    margin: 0px;
+                                    font-size: 14px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .simple-price{
+                            grid-area: simpleprice;
+                            text-align: left;
+                            font-size: 26px;
+                            color: #1C2945;
+                        }
+                        .woocommerce-variation-price{
+                            .price{
+                                text-align: left;
+                                font-size: 26px;
+                                color: #1C2945;
+                                float: left;
+                                width: 100%;
+                                padding-bottom: 30px;
+                            }
+                        }
+                        .woocommerce-variation-description{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .woocommerce-tabs{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Related Products Styling on Single Product Page
+.related{
+    &.products{
+        display: block !important;
+    }
+    .products{
+        .product{
+            .price{
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 481px){
+    #primary{
+        #main{
+            .products{
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-template-columns: repeat(2, 1fr);
+                grid-column-gap: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px){
+    // Header Styling
+    #masthead{
+        .site-header-container{
+            display: grid;
+            grid-template-columns: 5fr 1fr;
+            max-width: 1400px;
+            margin: 0 auto;
+            .side{
+                display: none;
+            }
+            .header{
+                width: fit-content;
+                .small-screen{
+                    display: none;
+                }
+                #site-navigation{
+                    .menu-osborne-menu-container{
+                        #primary-menu{
+                            .menu-item-has-children{
+                                .sub-menu{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .shop-menu{
+                display: block;
+            }
+        }
+    }
+
+    // Online Shop Page Styling
+    .our-food{
+        #page{
+            #content{
+                .entry-header{
+                    padding: 180px 0px;
+                }
+                #primary{
+                    #main{
+                        article{
+                            .entry-content{
+                                .online-shop-breadcrumb{
+                                    padding: 30px 0px;
+                                }
+                                .product-categories-container{
+                                    grid-template-columns: repeat(2, 1fr);
+                                    grid-column-gap: 30px;
+                                    .single-category-box{
+                                        height: 280px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Product Categories Pages Styling
+    .tax-product_cat{
+        #primary{
+            #main{
+                .products{
+                    display: grid;
+                    grid-template-rows: 1fr;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-column-gap: 20px;
+                }
+            }
+        }
+    }
+
+    // Single Product Page Styling
+    .single-product{
+        #page{
+            #content{
+                padding-top: 90px;
+                #main{
+                    .product{
+                        .product-breadcrumb{
+                            text-align: left;
+                            display: block;
+                            padding: 30px 0px;
+                        }
+                        .summary{
+                            .product-title{
+                                text-align: left;
+                            }
+                        }
+                        .woocommerce-product-gallery{
+                            margin-bottom: 30px;
+                            img{
+                                max-height: none;
+                                height: 700px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Related Products Styling on Single Product Page
+    .related{
+        &.products{
+            h2{
+                padding-top: 70px;
+                padding-bottom: 30px;
+                text-align: left;
+            }
+            .products{
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 969px){
+    // Homepage Sections Styling
+    article{
+        .entry-content{
+            section{
+                .home-section-container{
+                    .wrapper{
+                        .sections{
+                            .section{
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                grid-column-gap: 70px;
+                            }
+                        }
+                    }
+                }
+            }
+            .section-2{
+                .home-section-container{
+                    .wrapper{
+                        .sections{
+                            .section{
+                                .images{
+                                    display: grid;
+                                    grid-template-columns: 2fr 1fr;
+                                    grid-template-areas: 'imagetwo imageone'
+                                        'imagetwo imagethree';
+                                    grid-row-gap: 10px;
+                                    grid-column-gap: 10px;
+                                    margin-right: 0px;
+                                    img{
+                                        width: 100%;
+                                        object-fit: cover;
+                                        margin-bottom: 0px;
+                                    }
+                                    .image-1{
+                                        height: 49%;
+                                        grid-area: imageone;
+                                    }
+                                    .image-2{
+                                        height: 100%;
+                                        grid-area: imagetwo;
+                                    }
+                                    .image-3{
+                                        height: 49%;
+                                        grid-area: imagethree;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .section-3{
+                .home-section-container{
+                    .wrapper{
+                        .sections{
+                            .section{
+                                height: 400px;
+                                .images{
+                                    margin-right: 0px;
+                                }
+                                .section-content{
+                                    display: grid;
+                                    grid-template-rows: 50px 150px 50px;
+                                    align-content: center;
+                                    .btn-link{
+                                        width: fit-content;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slider{
+        .wrapper{
+            &.pos-r{
+                width: 700px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    // Header Styling
+    #masthead{
+        .site-header-container{
+            .header{
+                margin-left: 14%;
+                width: 700px;
+            }
+        }
+    }
+
+    // Footer Styling
+    .site-footer{
+        .wrapper{
+            .contact-details{
+                grid-template-columns: repeat(4,1fr);
+                grid-template-areas: 'address contact social links';
+                .address{
+                    grid-area: address;
+                }
+                .links{
+                    grid-area: links;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                }
+                .contact{
+                    grid-area: contact;
+                }
+                .social{
+                    grid-area: social;
+                }
+            }
+        }
+    }
+
+    // Online Shop Page Styling
+    .our-food{
+        #page{
+            #content{
+                #primary{
+                    #main{
+                        article{
+                            .entry-content{
+                                .product-categories-container{
+                                    grid-template-columns: repeat(3, 1fr);
+                                    grid-column-gap: 30px; 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Product Categories Pages Styling
+    .tax-product_cat{
+        #primary{
+            #main{
+                .products{
+                    display: grid;
+                    grid-template-rows: 1fr;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-column-gap: 20px;
+                }
+            }
+        }
+    }
+
+    // Related Products Styling on Single Product Page
+    .related{
+        &.products{
+            .products{
+                grid-template-columns: repeat(4, 1fr) !important;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    // Single Product Page Styling
+    .single-product{
+        #page{
+            #content{
+                padding-top: 90px;
+                #main{
+                    .product{
+                        .summary{
+                            width: 35%;
+                            float: left;
+                            margin-left: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
